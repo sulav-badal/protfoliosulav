@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box; 
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: aliceblue;
+ 
+}
+#header{
+    background-color:#1d1d1d;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 5px 5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 21px;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color:#ffac05;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+
+.header-text{
+    margin-top: 9%;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.header-text p{
+    color: #ffac05;
+    font-size: 40px;
+    font-style:italic;
+    margin-left: 0.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.header-text h1{
+    font-size: 55px;
+    margin-top: 18px;
+     
+}
+.header-text p1{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #777777;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+.header-text h1 span{
+    color: #ffac05;
+    font-size: 70px;
+    font-stretch:condensed;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+.photoright{
+border-radius: 10%;
+margin-top:-100%;
+margin-left: 60%;
+}
+.butt button{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: #ffac05;
+    border-radius: 12px;
+    padding: 10px 30px;
+}
+.butt button a{
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header1{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.container1 h1{
+    color: #ffac05;
+   
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mouse{
+    margin-top: 1343%;
+    width: 40px;
+    height: 60px;
+    border: 4px solid rgb(227, 214, 214);
+    border-radius: 40px;
+
+}
+
+.mouse::before{
+    margin-top: 1265%;
+    content: "";
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 30px;
+    background: white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 2s infinite;
+
+}
+@keyframes mouse{
+    from{
+        opacity: 1;
+        top: 40px;
+    }
+    to{
+        opacity: 0;
+        top: 66px;
+    }
+}
+#wedo{
+    background-color:#ffffff;
+    width: 100%;
+    height: 100vh;
+    
+    
+
+}
+.wedo1{
+    color:#ffac05;
+    font-size: 35px;
+    margin: 7% 6.5%;
+}
+.wedo1 span3{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wedo1 span4{
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1d1d1d;
+    font-weight: lighter;
+}
+
+.responsive-box {
+    background: transparent;
+    border-color: #ffac05;
+    border: 100px;
+    width: 25%;
+    height: 250px;
+    margin-top: 1%;
+    margin: 79px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: black;
+    border: 60px;
+    
+  }
+
+
+.responsive-box span5{
+    font-size: 20px;
+    
+    font-weight: bold;
+    margin-left: 16.5%;
+    margin-top: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.responsive-box span6{
+    margin-left: 5%;
+    margin-top: 280%;
+    color: #777777;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.responsive-box span7{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
