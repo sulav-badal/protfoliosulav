@@ -547,7 +547,7 @@ nav ul li a:hover::after
 .weforchangephoto
 {
   position: absolute;
-  top: 25%;
+  top: 22%;
   border-right: 2px solid black;
   left: 3%;
   width: 12%;
@@ -559,7 +559,7 @@ nav ul li a:hover::after
   transform: scale(1.2);
   box-shadow: 0 2px 5px #000;
   position: absolute;
-  top: 25%;
+  top: 22%;
   border-right: 2px solid black;
   left: 3%;
 }
@@ -625,6 +625,11 @@ nav ul li a:hover::after
   transition: 0.3s;
 }
 
+.wename {
+  left: 16%;
+  top: 22%;
+}
+
 .intname
 {
   left: 16%;
@@ -633,7 +638,7 @@ nav ul li a:hover::after
   transition: 0.3s;
 }
 
-.intnamedetail,.wenamedetail
+.intnamedetail, .wenamedetail 
 {
   position: absolute;
   color: #000000;
@@ -646,9 +651,12 @@ nav ul li a:hover::after
 
 .wenamedetail
 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  color: #000000;
+  font-family: 'Dosis', sans-serif;
   font-size: 15px;
-  top: 29%;
+  top: 27%;
+  left: 16%;
   transition: 0.3s;
 }
 
@@ -1008,7 +1016,7 @@ nav ul li a:hover::after
 
 #c1
 {
-  background-image: url(about.png);
+  background-image: url(Anima.png);
   background-size: cover;
 }
 
@@ -1020,7 +1028,7 @@ nav ul li a:hover::after
 
 #c3
 {
-  background-color: #0f0e0e;
+  background-image: url(adhish.jpeg);
   background-size: cover;
 }
 
@@ -1098,7 +1106,7 @@ nav ul li a:hover::after
   position: absolute;
   top: 30%;
   left: 14%;
-  height: 260px;
+  height: 288px;
   justify-content: center;
   align-items: center;
   text-align: center;
