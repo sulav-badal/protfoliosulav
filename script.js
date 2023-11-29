@@ -2,7 +2,7 @@ let prevScrollpos = window.pageYOffset;
 const navbar = document.querySelector(".navbar");
 const stickyNav = document.querySelector(".sticky-nav");
 
-window.onscroll = function () {
+window.addEventListener("scroll", function () {
   let currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     navbar.style.top = "0";
@@ -12,7 +12,7 @@ window.onscroll = function () {
     stickyNav.classList.add("show");
   }
   prevScrollpos = currentScrollPos;
-};
+});
 
 function hideLoadingScreen() {
   document.getElementById("loading-screen").style.display = "none";
