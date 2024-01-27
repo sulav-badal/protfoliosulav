@@ -1305,7 +1305,7 @@ nav ul li a:hover::after
     transition: 0.3s;
   }
 
-  .cantsayno a {
+  .cantsayno a { 
     text-decoration: none;
     color: #000;
   }
