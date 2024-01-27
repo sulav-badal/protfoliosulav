@@ -1437,10 +1437,7 @@ nav ul li a:hover::after
 .camera2{
  left: 375px;
 }
-#experiences .wave1,.wave2{
-  width: 170%;
-  left: 200px;
-}
+
 .info {
   top: 50%;
   left: 70px;
