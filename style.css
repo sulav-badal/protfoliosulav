@@ -1250,7 +1250,7 @@ nav ul li a:hover::after
   .logo img {
     display:block;
   }
-  #bg-video, #about{
+  #bg-video{
     display: none;
   }
   .sticky-nav{
@@ -1261,8 +1261,8 @@ nav ul li a:hover::after
   }
   .name {
     margin-left: -20px;
-    font-size: 1.3em; /* Use relative font size */
-    /* margin: 20px 0px; Adjust margin */
+    font-size: 1.3em;
+
     margin-top: -40px;
     padding: 17px; 
   }
@@ -1277,31 +1277,32 @@ nav ul li a:hover::after
 
 
   .text {
-    font-size: 1em; /* Use relative font size */
+    font-size: 1em; 
   }
 
   .wrapper {
-    margin-top: 20%; /* Adjust margin */
+    margin-top: 20%; 
   }
 
   .wrapper .button {
-    padding: 1px; /* Adjust padding */
+    padding: 1px; 
   }
 
   .wrapper .button .icon,
   .wrapper .button .icon i,
   .wrapper .button .icon ion-icon {
-    font-size: 1em; /* Use relative font size */
+    font-size: 1em; 
   }
 
   .projects {
-    font-size: 1.5em; /* Use relative font size */
+    font-size: 1.5em; 
   }
 
   .cantsayno {
-    font-size: 1em; /* Use relative font size */
-    width: auto; /* Adjust width */
-    margin: 20px; /* Adjust margin */
+    display: none;
+    font-size: 1em; 
+    width: auto; 
+    margin: 20px;
     transition: 0.3s;
   }
 
@@ -1311,8 +1312,142 @@ nav ul li a:hover::after
   }
 
   .cantsayno:hover {
-    transform: scale(1.1); /* Adjust scale */
+    transform: scale(1.1); 
   }
+  #about{
+    display: block;
+  }
+  .photo
+  {
+    width: 205px;
+    height: 205px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    top: 0%;
+    left: 130%;
+      /* box-shadow: 0 10px 50px #5e1914; */
+    animation: float 3s ease-in-out infinite alternate;
+  }
+  
+  .photo img
+  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    transform: scale(3.9);
+    left: 22px;
+    filter: drop-shadow(0px 5px 10px #5e1914);
+    transition: all 0.3s ease-in-out;
+  }
+  #about{
+    width: 20%;
+  }
+  #about .abouth1, .information{
+    display: none;
+  }
+
+.about-image{
+  display: none;
+}
+
+.edu {
+  display: block;
+  top: 27%;
+  /* font-size: 5px; */
+  margin-left: 200px;
+}
+.projects{
+  display: none;
+}
+.list-education{
+  top: 47%;
+}
+.line2{
+  width: 400%;
+}
+#experiences{
+  display: block;
+  top: 65%;
+  width: 490%;
+}
+ .line1 {
+ display: none;
+}
+.photo-experience img{
+  width: 30%;
+}
+.wename,.wenamedetail{
+  left: 40%;
+
+}
+.weforchangephoto:hover ~ .wename
+{
+  transform: scale(0);
+  position: absolute;
+  left: 700%;
+}
+
+.weforchangephoto:hover ~ .wenamedetail
+{
+  
+  transform: scale(0);
+  position: absolute;
+  left: 700%;
+}
+
+/* .internationalclubphoto:hover
+{
+  transform: scale(0);
+  box-shadow: 0 2px 5px #000;
+  position: absolute;
+  top: 25%;
+  border-right: 2px solid black;
+  left: 0%;
+} */
+
+.internationalclubphoto:hover ~ .intname
+{
+  transform: scale(1.2);
+  position: absolute;
+  left: 700%;
+}
+
+.internationalclubphoto:hover ~ .intnamedetail
+{
+  transform: scale(0);
+  position: absolute;
+  left: 700%;
+}
+
+/* .wename:hover{
+  
+} */
+.intname,.intnamedetail{
+  left: 40%;
+
+}
+.main{
+  display: none;
+}
+.card {
+  left: 20px;
+}
+.camera2{
+ left: 375px;
+}
+#experiences .wave1,.wave2{
+  width: 170%;
+  left: 200px;
+}
+.info {
+  top: 50%;
+  left: 70px;
+
+  width: 78%;
+  font-size: 11px;
+}
 }
 
 
