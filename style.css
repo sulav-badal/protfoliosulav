@@ -1244,100 +1244,75 @@ nav ul li a:hover::after
 
 @media (max-width: 480px) {
   header {
-    padding: 10px;
+    padding: 17px;
   }
 
   .logo img {
+    display:block;
+  }
+  #bg-video, #about{
     display: none;
   }
-
-  nav {
+  .sticky-nav{
     display: none;
-    margin-left: -220px;
-    margin-top: 100px; /* Reset left position */
-    top: auto; /* Reset top position */
-    font-size: 18px; /* Increase font size */
   }
-
+  .navbar{
+    display: none;
+  }
   .name {
-    font-size: 100px;
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: -45px;
-    padding: 80px;
-    
+    margin-left: -20px;
+    font-size: 1.3em; /* Use relative font size */
+    /* margin: 20px 0px; Adjust margin */
+    margin-top: -40px;
+    padding: 17px; 
   }
-  .name span{
+
+  .name span {
     display: block;
-    padding-right: 190px;
   }
-  .text {
-    font-size: 50px;
+  .name p{
+    display: block;
     width: 100%;
   }
 
+
+  .text {
+    font-size: 1em; /* Use relative font size */
+  }
+
   .wrapper {
-   margin-top: 470%;
-   margin-left: 30%;
-
+    margin-top: 20%; /* Adjust margin */
   }
+
   .wrapper .button {
-    padding: 70px;
-  }
-  .wrapper .button .icon {
-    padding: 70px;  
-    margin-top: -70px;
-    margin-left: -70px;
-  }
-  .wrapper .button .icon i {
-    margin-left: -27px;
-    margin-top: -12px;
-    font-size: 69px; /* Increase the icon font size */
+    padding: 1px; /* Adjust padding */
   }
 
+  .wrapper .button .icon,
+  .wrapper .button .icon i,
   .wrapper .button .icon ion-icon {
-    font-size: 69px; 
-    margin-left: -32px;/* Increase the icon font size */
-    margin-top: -25px; /* Adjust margin for better alignment */
-    line-height: 30px; /* Adjust line height for vertical alignment */
+    font-size: 1em; /* Use relative font size */
   }
 
-#about {
-  display: none;
-  margin-top: 400%;
-  
-}
-#bg-video {
-  display: none;
-}
+  .projects {
+    font-size: 1.5em; /* Use relative font size */
+  }
 
-}
+  .cantsayno {
+    font-size: 1em; /* Use relative font size */
+    width: auto; /* Adjust width */
+    margin: 20px; /* Adjust margin */
+    transition: 0.3s;
+  }
 
-.projects{
-  top: 61%;
-}
-.cantsayno{
-  position: absolute;
- font-size: 25px;
-  height: 60px;
-  width: 180px;
-  background-color: rgb(104, 47, 43, 0.6);
-  border-radius: 3px;
-  border: none;
-  margin: 20px auto;
-  border-right: 1px solid black;
-  box-shadow: 0 2px 5px rgb(0, 0, 0), 0.5;
-  top: 80%;
-  left: 10%;
-  transition: 0.3s;
-}
-.cantsayno a{
-  text-decoration: none;
-  color: #000;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.cantsayno:hover {
-  transform: scale(1.6);
+  .cantsayno a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .cantsayno:hover {
+    transform: scale(1.1); /* Adjust scale */
+  }
 }
 
 
