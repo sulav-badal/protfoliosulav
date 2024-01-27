@@ -982,6 +982,13 @@ nav ul li a:hover::after
     left: 20%;
 
 } */
+.projects{
+  display: none;
+}
+.cantsayno{
+  display: none;
+
+}
 .camera1
 {
   position: absolute;
