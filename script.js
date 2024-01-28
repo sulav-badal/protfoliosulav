@@ -57,3 +57,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+
+/* end hamburger */
+document.getElementById('hamburger-icon').addEventListener('click', function() {
+  var hamburgerIcon = document.getElementById('hamburger-icon');
+  var navigationMenu = document.getElementById('navigation-menu');
+
+  hamburgerIcon.classList.toggle('cross');
+  
+  if (getComputedStyle(navigationMenu).display === 'none' || navigationMenu.style.display === '') {
+      navigationMenu.style.display = 'block';
+  } else {
+      navigationMenu.style.display = 'none';
+  }
+});
+
